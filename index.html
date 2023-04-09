@@ -207,6 +207,14 @@
 
         }
 
+        .name {
+            opacity: .6;
+
+        }
+
+        #text {
+            width: calc(100% - 94px);
+        }
 
         #cornell {
             border-bottom: 1px solid #000;
@@ -227,6 +235,12 @@
         footer {
             margin: 0px 5px 5px;
             text-align: left
+        }
+
+        #chat {
+            margin: 0px 0px;
+
+
         }
 
         #resume {
@@ -258,6 +272,9 @@
             margin: 0;
         }
 
+        /* #moveable {
+            position:absolute;
+        } */
 
 
         @media only screen and (max-width: 800px) {
@@ -394,12 +411,16 @@
     </div>
     <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
     <script>
+        // var iframes = document.getElementsByTagName('iframe')
+        // iframes.style.width = "1000px"
 
         var button = document.getElementsByClassName("button");
+
 
         for (i = 0; i < button.length; i++) {
             button[i].style.paddingTop = (button[i].offsetWidth / 2) - 16 + "px";
             button[i].style.paddingBottom = (button[i].offsetWidth / 2) - 16 + "px";
+
 
         }
     </script>
@@ -413,51 +434,3 @@
 </body>
 
 </html>
-
-
-<style>
-    body {
-        font-family: "HelveticaNeue-Light", "Helvetica Neue Light", Arial, sans-serif;
-        font-weight: 400;
-    }
-
-    button {
-        height: 100px;
-        width: 100px;
-        border-radius: 100%;
-        box-shadow: 0px 0px 22px rgb(0 0 0 / 0.3);
-        border-color: white;
-
-    }
-
-    button:hover {
-        cursor: pointer;
-        box-shadow: 0px 0px 45px rgba(0 0 0 / 0.5);
-        transition: 0.7s;
-    }
-
-    input [type=range] {
-        box-shadow: inset 0px 0px 20px rgba(0, 0, 0, .1);
-        width: 300px;
-        padding: 6px 12px 6px 9px;
-        border-radius: 100px;
-    }
-
-    input[type=range]::-webkit-slider-thumb {
-        background-color: transparent;
-        border: none;
-        outline: none;
-        -webkit-appearance: none;
-        box-shadow: 1px 1px 10px rgba(0, 0, 0, .2);
-        height: 35px;
-        width: 35px;
-        border-radius: 100%;
-        padding: 0;
-        margin: 1px;
-    }
-
-    input,
-    button {
-        background-color: transparent;
-    }
-</style> 
