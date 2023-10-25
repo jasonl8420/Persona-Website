@@ -390,7 +390,7 @@ ul a:hover,
 }
 .folders:hover,
 .contacts:hover {
-    background: linear-gradient(180deg, #FFFFFF 32%, #C8C8C8 95%);
+    background: linear-gradient(180deg, #FFFFFF 5%, #a6a6a6 95%);
     color: black;
     /* Add a text color to make it more noticeable */
 }
