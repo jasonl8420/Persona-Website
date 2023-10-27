@@ -383,6 +383,7 @@ p {
     cursor: pointer;
     font-family: 'Repro-Light';
     font-weight: 400;
+    margin-left:2px;
 }
 ul a:hover,
 .contacts:hover {
