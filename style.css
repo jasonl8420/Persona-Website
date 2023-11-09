@@ -212,7 +212,7 @@ li.finder-list-divider {
     overflow: scroll;
     flex-shrink: 0;
     border-right: 1px black dotted;
-    width: 42%;
+    width: 38%;
     position: relative;
 
     /* scroll shadow */
@@ -226,7 +226,9 @@ li.finder-list-divider {
     background-size: 100% 20px, 100% 20px, 100% 10px, 100% 10px;
     background-attachment: local, local, scroll, scroll;
 }
-
+#healio_dir{
+    border-right:none;
+}
 .about {
     padding: 32px;
     padding-top: 12px;
@@ -283,7 +285,7 @@ ul.categories li.open>ul {
     padding-right: 20px; */
     background-attachment: fixed;
     overflow: scroll;
-    width: 58%;
+    width: 62%;
     float: right;
     border-width: 0;
     font-size: 0;
@@ -298,6 +300,7 @@ ul.categories li.open>ul {
 #image-display {
     margin: 0;
     padding: 0;
+    overflow-y: auto;
 }
 .text-block {
     text-align: left;
@@ -401,7 +404,7 @@ a:visited {
 /* media */
 .inspector img,
 video {
-    box-shadow: 0 4px 6px rgb(104, 104, 104);
+    box-shadow: 0 4px 10px rgb(104, 104, 104);
     margin-top: 10px;
     margin-bottom: 5px;
 }
