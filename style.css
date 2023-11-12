@@ -338,11 +338,10 @@ p {
 }
 .profiling>p {
     font-size: 33px;
-    font-family: 'Prophet-Regular';
-}
+    font-family: 'Maxi-Light';}
 #name {
     text-decoration: none;
-    font-family: 'Grotesk-Light';
+    font-family: 'Maxi-Light';
     font-weight: 400;
 }
 #name:hover {
