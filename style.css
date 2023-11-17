@@ -2,32 +2,26 @@
     font-family: 'Grotesk-Light';
     src: url('/fonts/ABCMonumentGrotesk-Light-Trial.woff2') format('woff2');
 }
-
 @font-face {
     font-family: 'Grotesk-Regular';
     src: url('/fonts/ABCMonumentGrotesk-Regular-Trial.woff2') format('woff2');
 }
-
 @font-face {
     font-family: 'Maxi';
     src: url('fonts/ABCMaxiRound-Regular-Trial.woff2') format('woff2');
 }
-
 @font-face {
     font-family: 'Maxi-Light';
     src: url('fonts/ABCMaxiRound-Light-Trial.woff2') format('woff2');
 }
-
 @font-face {
     font-family: 'Repro-Regular';
     src: url('fonts/ABCRepro-Regular-Trial.woff2') format('woff2');
 }
-
 @font-face {
     font-family: 'Repro-Light';
     src: url('fonts/ABCRepro-Light-Trial.woff2') format('woff2');
 }
-
 
 html,
 body {
@@ -66,6 +60,10 @@ li.finder-list-divider {
     margin-top: 5px;
 }
 .hidden {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.phd{
     margin-left: 20px;
     margin-right: 20px;
 }
@@ -195,7 +193,6 @@ li.finder-list-divider {
     font-family: 'Repro-Light';
     font-weight: 300;
     line-height: 18.5px;
-
 }
 .number {
     display: flex;
@@ -214,7 +211,6 @@ li.finder-list-divider {
     border-right: 1px black dotted;
     width: 38%;
     position: relative;
-
     /* scroll shadow */
     background-image: linear-gradient(to top, #f1f1f1, #f1f1f1),
         linear-gradient(to top, #f1f1f1, #f1f1f1),
@@ -437,7 +433,6 @@ hr {
         flex-direction: column;
         width: 100%;
     }
-
     .dir {
         box-sizing: border-box;
         width: 100%;
@@ -446,32 +441,26 @@ hr {
         border-right: 0;
         border-bottom: 1px black dotted;
     }
-
     .navDetails {
         height: auto;
     }
-
     .inspector {
         box-sizing: border-box;
         width: 100%;
         height: 60%;
         padding: 20px;
     }
-
     .inspector iframe {
         width: 100%;
     }
-
     .text-block {
         width: 100%;
     }
-
     img,
     video {
         width: 100%;
         margin-top: 5px;
     }
-
     .footer {
         display: none;
     }
