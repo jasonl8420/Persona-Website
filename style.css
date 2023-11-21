@@ -22,7 +22,6 @@
     font-family: 'Repro-Light';
     src: url('fonts/ABCRepro-Light-Trial.woff2') format('woff2');
 }
-
 html,
 body {
     margin: 0;
@@ -63,7 +62,7 @@ li.finder-list-divider {
     margin-left: 20px;
     margin-right: 20px;
 }
-.phd{
+.phd {
     margin-left: 20px;
     margin-right: 20px;
 }
@@ -90,7 +89,6 @@ li.finder-list-divider {
     padding-top: 7px;
     padding-bottom: 6px;
     line-height: 100%;
-
 }
 /* .projectDescription {
     display: flex;
@@ -139,7 +137,6 @@ li.finder-list-divider {
     height: 30px;
     width: 100%;
 }
-
 /* finder */
 .finder {
     display: flex;
@@ -170,6 +167,7 @@ li.finder-list-divider {
     padding-top: 15px;
     padding-bottom: 30px;
 }
+
 .navDetails {
     padding-top: 12px;
     width: 100%;
@@ -179,7 +177,6 @@ li.finder-list-divider {
     height: calc(100vh - 350px);
     max-height: calc(100vh - 350px);
     min-height: calc(100vh - 350px);
-
     /* height: auto;
     flex-grow: 2;
     overflow-y: scroll;
@@ -222,8 +219,8 @@ li.finder-list-divider {
     background-size: 100% 20px, 100% 20px, 100% 10px, 100% 10px;
     background-attachment: local, local, scroll, scroll;
 }
-#healio_dir{
-    border-right:none;
+#healio_dir {
+    border-right: none;
 }
 .about {
     padding: 32px;
@@ -298,6 +295,9 @@ ul.categories li.open>ul {
     padding: 0;
     overflow-y: auto;
 }
+.inspector .images {
+    box-shadow: 0 3px 5px rgb(170, 170, 170);
+}
 .text-block {
     text-align: left;
     background-color: white;
@@ -334,7 +334,8 @@ p {
 }
 .profiling>p {
     font-size: 33px;
-    font-family: 'Maxi-Light';}
+    font-family: 'Maxi-Light';
+}
 #name {
     text-decoration: none;
     font-family: 'Maxi-Light';
@@ -381,7 +382,7 @@ p {
     cursor: pointer;
     font-family: 'Repro-Light';
     font-weight: 400;
-    margin-left:2px;
+    margin-left: 2px;
 }
 ul a:hover,
 .contacts:hover {
@@ -399,9 +400,17 @@ a:visited {
 /* media */
 .inspector img,
 video {
-    box-shadow: 0 4px 10px rgb(104, 104, 104);
     margin-top: 10px;
     margin-bottom: 5px;
+}
+.under {
+    z-index: -1;
+}
+.over {
+    position: absolute;
+    z-index: -1;
+    top: 100px;
+    /* box-shadow: 0 0px 0px rgb(104, 104, 104); */
 }
 .inspector iframe {
     width: 100%;
