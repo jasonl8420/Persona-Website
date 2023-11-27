@@ -22,6 +22,10 @@
     font-family: 'Repro-Light';
     src: url('fonts/ABCRepro-Light-Trial.woff2') format('woff2');
 }
+@font-face {
+    font-family: 'Gyre-Regular';
+    src: url('fonts/texgyreheros-regular.wofff') format('otf');
+}
 html,
 body {
     margin: 0;
@@ -32,15 +36,34 @@ body {
     /* anything other than the about page */
     text-decoration: none;
     /* height:100vh; */
+
 }
 html {
     background-color: #f1f1f1;
 }
-.about {
-    font-size: 15px;
-    height: 100%;
+ul li:hover .hover-box {
+    display: block;
+} 
+.hover-box {
+    display: none;
+    position:fixed;
+    bottom:10px;
+    border-radius:10px;
+    left:250px;
+    width: 180px;
+    height:50px;
+    padding: 10px;
+    padding-left: 20px;
+    font-family: 'Repro-Light';
+    margin: 0;
+    font-size:15px;
+    z-index: 999;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    line-height:100% ;
+    top:300px;
 }
 ul {
+    display: inline-block;
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -48,7 +71,9 @@ ul {
 li {
     margin-top: 0px;
     margin-bottom: 0px;
+    display: inline-block;
 }
+
 li.finder-list-divider {
     margin: 0;
     font-size: 12px;
@@ -342,7 +367,7 @@ p {
     font-weight: 400;
 }
 #name:hover {
-    color: #40e97e;
+    font-style: italic;
 }
 .folders:hover {
     background-color: black;
