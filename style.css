@@ -83,6 +83,10 @@ li.finder-list-divider {
     font-size: 15px;
     margin-top: 5px;
 }
+.gif p {
+    font-family: 'Repro-Light';
+    font-size: 15px;
+}
 .hidden {
     margin-left: 20px;
     margin-right: 20px;
@@ -311,9 +315,27 @@ ul.categories li.open>ul {
     justify-content: center;
     flex-wrap: wrap;
 }
+#seesaw_gif {
+    margin-top:30px;
+    width:95%;
+    box-shadow: 0 3px 5px rgb(170, 170, 170);
+    height:auto;
+}
+
+.seesaw_img {
+    box-shadow: 0 3px 5px rgb(170, 170, 170);
+}
+.seesaw p {
+    font-family: 'Repro-Light';
+    font-size: 15px;
+    margin-top: 5px;
+}
 .inspector li {
-    margin-top: 45px;
+    margin-top: 15px;
     margin-bottom: 100px;
+}
+.inspector li:first-child {
+    margin-top:15px;
 }
 #image-display {
     margin: 0;
@@ -323,6 +345,7 @@ ul.categories li.open>ul {
 .inspector .images {
     box-shadow: 0 3px 5px rgb(170, 170, 170);
 }
+
 .text-block {
     text-align: left;
     background-color: white;
@@ -497,5 +520,10 @@ hr {
     }
     .footer {
         display: none;
+    }
+    #seesaw_gif {
+        margin-top:10px;
+        height: 70%;
+        width:auto;
     }
 }
